@@ -31,7 +31,7 @@
 }
  
  .main-visual-content {
-     width: 350%; /*横幅350px*/
+     width: 30%; /*横幅350px*/
      height: 300px; /*親の高さに揃える*/
      background-color: gold; /*背景色gold*/
 }
