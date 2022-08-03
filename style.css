@@ -2,7 +2,7 @@
 ＊ {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
  .header {
@@ -35,12 +35,25 @@
      height: 300px; /*親の高さに揃える*/
      background-color: gold; /*背景色gold*/
 }
-
+  
 
  .main {
-     width: 100%; /*横幅いっぱい*/
-     height: 1400PX; /*高さ1400px （多めに設定）*/
-     background-color: green; /*背景色green*/
+     width: 840px; /*横幅840px*/
+     display: flex; /* Flexboxの利用 */
+     justify-content: center; /* 子要素の横並び・中央寄せ */
+     margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+ .blog {
+     width: 600px; /* 横幅600px */
+     height: 1400px; /* 高さ600px */
+     background-color: limegreen; /* 背景色limegreen */
+}
+
+ .sidebar {
+     width: 240px; /* 横幅240px */
+     height: 1400px; /* 高さ600px */
+     background-color: palegreen; /* 背景色palegreen */
 }
 
  .footer {
